@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Cuti RRI Sibolga</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="assets/logo-rri-sibolga.png" alt="Logo RRI Sibolga" class="logo">
+        <h1>Aplikasi Cuti Pegawai RRI Sibolga</h1>
+    </header>
+
+    <main>
+        <div class="clock-container">
+            <span id="date"></span> | <span id="time"></span>
+        </div>
+
+        <div class="button-container">
+            <a href="https://drive.google.com/drive/folders/1Cgl3yOpeZgsBxZZv5YvGtwZ8to9FM3ZE?usp=sharing" class="btn">📄 Unduh Persyaratan</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_KZMuQmFq0Yi3cno7F_F-xM5QbF8euf7rgaaKVYdsupxJOw/viewform?usp=sharing&ouid=105802488582507153521" class="btn">📝 Ajukan Cuti</a>
+        </div>
+
+        <section id="data-cuti">
+            <h2>Daftar Pegawai yang Sedang Cuti</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nama Pegawai</th>
+                        <th>Tanggal Mulai</th>
+                        <th>Tanggal Selesai</th>
+                        <th>Keterangan</th>
+                    </tr>
+                </thead>
+                <tbody id="cuti-list">
+                    <tr><td colspan="4">Memuat data...</td></tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 RRI Sibolga</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
